@@ -3,9 +3,10 @@ package main
 import (
 	"github.com/autovelop/playthos"
 	_ "github.com/autovelop/playthos/opengl"
-	_ "github.com/autovelop/playthos/platforms/linux"
 	_ "github.com/autovelop/playthos/platforms/web"
-	// _ "github.com/autovelop/playthos/platforms/windows"
+	_ "github.com/autovelop/playthos/webgl"
+	// _ "github.com/autovelop/playthos/platforms/linux"
+	_ "github.com/autovelop/playthos/platforms/windows"
 	"github.com/autovelop/playthos/render"
 	"github.com/autovelop/playthos/std"
 	// "time"
